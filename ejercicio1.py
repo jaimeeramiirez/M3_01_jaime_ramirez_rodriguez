@@ -23,8 +23,4 @@ alumno1=Alumno("Jaime", 5)
 alumno1.califiacion()
 
 print("\n\n")
-
-alumno2=Alumno("Alejandro", 3)
-alumno2.califiacion()
-  
   

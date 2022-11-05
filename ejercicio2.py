@@ -24,4 +24,8 @@ alumno1=Alumno("Jaime", 5)
 print(alumno1)
 calificacion= alumno1.calificacion()
 
+alumno2=Alumno("Alejandro", 3)
+print(alumno2)
+calificacion= alumno2.calificacion()
+
 
