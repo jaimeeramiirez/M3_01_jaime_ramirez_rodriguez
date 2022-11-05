@@ -12,13 +12,14 @@ class Alumno:
   
   def calificacion(self):
     if self.nota>=5:
-      print(self.nombre, "ha aprobado")
+      print(self.nombre, "ha aprobado\n\n")
     else:
-      print(self.nombre, "ha suspendido")
+      print(self.nombre, "ha suspendido\n\n")
 
   
   def __str__(self):
     return "{}, ha sacado un: {}".format(self.nombre, self.nota)
+
 
 alumno1=Alumno("Jaime", 5)
 print(alumno1)
