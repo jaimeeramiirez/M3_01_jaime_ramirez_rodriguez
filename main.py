@@ -1,7 +1,7 @@
 
 print("\n\n")
 
-respuesta= int(input("Que ejerciico quieres importar?: "))
+respuesta= int(input("Que ejercicio quieres importar?: "))
 print("\n")
 
 if respuesta == 1:
